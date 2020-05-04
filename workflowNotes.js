@@ -1,3 +1,7 @@
+// CH-CH-CH-CHANGES
+
+// Updating and changing to practice with GitHub
+
 // Googling things is part of life now
 //  99% of the questions you have are already on the web, answered
 // You need to work on a task and hit walls for about 15 minutes. IF you still can't resolve the task,
