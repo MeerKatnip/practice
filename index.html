@@ -1,0 +1,44 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+
+        <h1>GroceryApp (Firebase)</h1>
+
+        <input type="text" id="taskTextBox" placeholder="Add Store">
+        <button id="addStoreButton">Add</button>
+
+        <input type="text" id="deleteTextBox" placeholder="Delete Store">
+        <button id="deleteStoreButton">Delete</button>
+
+        <ul id="addList">
+
+        </ul>
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+        <!-- Firebase Realtime Database Library --> <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-database.js"></script>
+
+        <script>
+            // Your web app's Firebase configuration
+            var firebaseConfig = {
+              apiKey: "AIzaSyA7AOZSuvi0wzTq-g9aIX0dYUABQtJppRY",
+              authDomain: "groceryapp-2a563.firebaseapp.com",
+              databaseURL: "https://groceryapp-2a563.firebaseio.com",
+              projectId: "groceryapp-2a563",
+              storageBucket: "groceryapp-2a563.appspot.com",
+              messagingSenderId: "1009070167667",
+              appId: "1:1009070167667:web:d4764d082a6b44261efc06"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+        </script>
+
+
+        <script src="grocery.js"></script>
+    </body>
+</html>
