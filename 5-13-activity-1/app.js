@@ -1,14 +1,14 @@
 const express = require('express')
 const app = express()
 const path = require('path')
+const userRoutes = require('./routes/users')
 const mustacheExpress = require('mustache-express')
 
 const VIEWS_PATH = path.join(__dirname, '/views')
 
 // const tripsRouter = require('./routes/trips')
-// const usersRouter = require('./routes/users')
 
-// console.log(usersRouter)
+app.use('/users',userRoutes)
 
 
 app.use(express.urlencoded())
